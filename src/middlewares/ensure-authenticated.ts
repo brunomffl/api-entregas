@@ -34,3 +34,5 @@ function ensureAuthenticated(req: Request, res: Response, next: NextFunction) {
         throw new AppError("JWT inválido!", 401);
     }
 }
+
+export { ensureAuthenticated };
