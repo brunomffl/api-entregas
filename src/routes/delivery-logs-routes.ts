@@ -9,5 +9,6 @@ const deliveryLogsController = new DeliveryLogsController();
 
 //somente o vendedor (sale) pode criar porém todos os usuários podem ver a listagem
 deliveryLogsRoutes.post("/",ensureAuthenticated, verifyUserAuthorizations(["sale"]), deliveryLogsController.create);
+deliveryLogsRoutes.get("/:delivery_id/show", ensureAuthenticated, verifyUserAuthorizations(["sale", "customer"]), deliveryLogsController.show);
 
 export { deliveryLogsRoutes };
