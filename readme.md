@@ -132,5 +132,5 @@ docker-compose up -d
 
 **Bruno Cardoso**
 
-- GitHub: [@sbrunomffl](https://github.com/brunomffl)
+- GitHub: [@brunomffl](https://github.com/brunomffl)
 - LinkedIn: [Bruno Cardoso da Silva](https://www.linkedin.com/in/brunomffl/)
